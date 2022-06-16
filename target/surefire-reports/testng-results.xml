@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38164" started-at="2022-06-15T22:14:59 IST" finished-at="2022-06-15T22:15:38 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinition.TestRunner@33f88ab]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="38164" started-at="2022-06-15T22:14:59 IST" finished-at="2022-06-15T22:15:38 IST">
+      <class name="StepDefinition.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:StepDefinition.TestRunner@33f88ab]" name="setUpClass" is-config="true" duration-ms="881" started-at="2022-06-15T22:15:00 IST" finished-at="2022-06-15T22:15:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="first()[pri:0, instance:StepDefinition.TestRunner@33f88ab]" name="first" is-config="true" duration-ms="0" started-at="2022-06-15T22:15:00 IST" finished-at="2022-06-15T22:15:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:StepDefinition.TestRunner@33f88ab]" name="runScenario" duration-ms="36402" started-at="2022-06-15T22:15:00 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-15T22:15:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verification of the URL"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test opening the browser functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="last()[pri:0, instance:StepDefinition.TestRunner@33f88ab]" name="last" is-config="true" duration-ms="0" started-at="2022-06-15T22:15:37 IST" finished-at="2022-06-15T22:15:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:StepDefinition.TestRunner@33f88ab]" name="tearDownClass" is-config="true" duration-ms="718" started-at="2022-06-15T22:15:37 IST" finished-at="2022-06-15T22:15:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- StepDefinition.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
